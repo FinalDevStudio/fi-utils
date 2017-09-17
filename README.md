@@ -19,7 +19,7 @@ const fi = require('fi-utils');
 
 ### Initialization
 
-This module exports an `Object` that exposes several methods:
+This module exports an `Object` that exposes various methods:
 
 ```js
 const fi = require('fi-utils');
