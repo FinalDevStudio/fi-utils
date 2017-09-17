@@ -50,8 +50,8 @@ An optional `Object` with the following parameters:
 | Method | Arguments | Description |
 | --- | --- | --- |
 | `init` | `config` | This method wil initialize the module with the provided config. |
-| `serverdir` | None | Retruns the configured server dir. |
-| `basedir` | None | Retruns the configured base dir. |
+| `serverdir` | None | Returns the configured server dir. |
+| `basedir` | None | Returns the configured base dir. |
 | `include` | `relpath`, `name` | Requires a file relative to the server folder. |
-| `config` | `name` | Wrapper to include a config file relative to the `<serverdir>/configs` folder. |
-| `component` | `name` | Wrapper to include a component file relative to the `<serverdir>/components` folder. |
+| `config` | `name` | Wrapper to require a config file relative to the `<serverdir>/configs` folder using `include`. |
+| `component` | `name` | Wrapper to require a component file relative to the `<serverdir>/components` folder using `include`. |
