@@ -28,7 +28,7 @@ fi.init(config));
 
 const mycomp = fi.component('my-component');
 
-mycomp.configure(fi.config('my-comp-cfg));
+mycomp.configure(fi.config('my-comp-cfg'));
 
 // ...
 ```
