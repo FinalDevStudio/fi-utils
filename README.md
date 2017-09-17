@@ -1,4 +1,4 @@
-# Fi Schemas [![Build Status](https://travis-ci.org/FinalDevStudio/fi-utils.svg?branch=master)](https://travis-ci.org/FinalDevStudio/fi-schemas)
+# Fi Utils [![Build Status](https://travis-ci.org/FinalDevStudio/fi-utils.svg?branch=master)](https://travis-ci.org/FinalDevStudio/fi-schemas)
 
 Utilities and helpers for Fi Seed based projects.
 
