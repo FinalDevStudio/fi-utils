@@ -2,7 +2,7 @@
   "name": "fi-utils",
   "title": "Fi Utils",
   "description": "Utilities and helpers for Fi Seed based projects.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "index.js",
   "license": "MIT",
