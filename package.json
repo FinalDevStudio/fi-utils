@@ -4,17 +4,19 @@
   "description": "Utilities and helpers for Fi Seed based projects.",
   "version": "1.0.0",
   "private": false,
+  "main": "index.js",
   "license": "MIT",
   "author": "Final Development Studio <sorcery@finaldevstudio.com> (http://finaldevstudio.com)",
+  "homepage": "https://github.com/finaldevstudio/fi-utils",
   "contributors": [
-    "Santiago G. Marín <santiago@finaldevstudio.com>"
+    "Santiago G. Marín <santiago@finaldevstudio.com> (https://github.com/stgogm)"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/finaldevstudio/fi-utils.git"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/*.js"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "dependencies": {
     "chalk": "^2.1.0",
@@ -22,14 +24,13 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^3.5.3"
+    "mocha": "^4.0.1"
   },
   "bugs": {
     "url": "https://github.com/finaldevstudio/fi-utils/issues"
   },
-  "homepage": "https://github.com/finaldevstudio/fi-utils",
-  "main": "lib/index.js",
   "keywords": [
+    "utilities",
     "utils",
     "fi",
     "fi-seed"
