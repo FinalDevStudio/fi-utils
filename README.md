@@ -1,4 +1,4 @@
-# Fi Utils [![Build Status](https://travis-ci.org/FinalDevStudio/fi-utils.svg?branch=master)](https://travis-ci.org/FinalDevStudio/fi-schemas)
+# Fi Utils [![Build Status](https://travis-ci.org/dotstudio-io/fi-utils.svg?branch=master)](https://travis-ci.org/dotstudio-io/fi-utils) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Utilities and helpers for Fi Seed based projects.
 
