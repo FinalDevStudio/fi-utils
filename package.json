@@ -6,17 +6,23 @@
   "private": false,
   "main": "index.js",
   "license": "MIT",
-  "author": "Final Development Studio <sorcery@finaldevstudio.com> (http://finaldevstudio.com)",
-  "homepage": "https://github.com/finaldevstudio/fi-utils",
+  "author": "DOT <contact@dotstudio.io> (https://www.dotstudio.io)",
+  "homepage": "https://github.com/dotstudio-io/fi-utils",
+  "repository": "github:dotstudio-io/fi-utils",
   "contributors": [
-    "Santiago G. Marín <santiago@finaldevstudio.com> (https://github.com/stgogm)"
+    "Santiago G. Marín <santiago.marin@dotstudio.io> (https://github.com/stgogm)"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/finaldevstudio/fi-utils.git"
+  "bugs": {
+    "url": "https://github.com/dotstudio-io/fi-utils/issues"
   },
+  "keywords": [
+    "utilities",
+    "utils",
+    "fi",
+    "fi-seed"
+  ],
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "nyc mocha"
   },
   "dependencies": {
     "chalk": "^2.1.0",
@@ -26,13 +32,8 @@
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
   },
-  "bugs": {
-    "url": "https://github.com/finaldevstudio/fi-utils/issues"
-  },
-  "keywords": [
-    "utilities",
-    "utils",
-    "fi",
-    "fi-seed"
-  ]
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
